@@ -35,3 +35,19 @@ CoreMark 1.0 : 403.782092 / GCC6.3.0 Not defined. / STACK
 | ----------- | ----------- |
 | 160MHz | 403.782092       |
 | 240MHz | 605.815832       |
+
+## Comparisons with older 32-bit x86 platforms (ascending order):
+| Processor | CoreMark result (STACK) |
+| ----------- | ----------- |
+| AMD Am486DX4-100 | 136.363481 |
+| Intel Pentium P166MMX (SL2HU) | 374.999063 |
+| WinnerMicro W806 160MHz | 403.782092 |
+| Intel Pentium P200MMX (SL23W) | 461.537929 |
+| Cyrix M2-300GP | 545.468926 |
+| WinnerMicro W806 240MHz | 605.815832 |
+
+<sub>486 system specs: S486 motherboard (512K cache), S3 VirgeDX, 32MB EDO RAM, IDE->CF (Sandisk 512MB)</sub>
+
+<sub>Pentium system Specs: Asus VX-97, ATI Rage 8MB, 32MB EDO RAM, IDE->CF (Sandisk 2.0GB)</sub>
+
+<sub>Both of the older x86 platforms using GCC 10.3.0 (DJGPP) -O3 -DPERFORMANCE_RUN=1, FreeDOS 7.10</sub>
